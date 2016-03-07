@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<session>
+	 <window x="0" y="36" width="1920" height="1015" active-tab="8" role="epiphany-window-1e6cd3ba">
+	 	 <embed url="http://docs.aws.amazon.com/iot/latest/developerguide/iot-device-sdk-node.html" title="Getting Started with AWS IoT on Raspberry Pi and the AWS IoT Device SDK for Node.js - AWS IoT"/>
+	 	 <embed url="https://www.symantec.com/content/en/us/enterprise/verisign/roots/VeriSign-Class%203-Public-Primary-Certification-Authority-G5.pem" title="www.symantec.com"/>
+	 	 <embed url="https://github.com/aws/aws-iot-device-sdk-js" title="GitHub - aws/aws-iot-device-sdk-js: SDK for connecting to AWS IoT from a device using JavaScript/Node.js"/>
+	 	 <embed url="https://us-west-2.console.aws.amazon.com/iot/home?region=us-west-2#/thing/MyNewThing" title="AWS IoT"/>
+	 	 <embed url="https://login.microsoftonline.com/error_on_logout.srf?mkt=EN-US&amp;lc=1033&amp;id=260563&amp;ru=https://outlook.com/owa/%3Frealm%3Dwisc.edu%26exch%3D1&amp;realm=WISC.EDU&amp;vis=$271346&amp;ct=1457240390&amp;ec=2" title="Sign in"/>
+	 	 <embed url="https://outlook.office365.com/owa/projection.aspx" title="aws iot cert"/>
+	 	 <embed url="http://a34sxntm6at7xh.iot.us-west-2.amazonaws.com/" title="Oops! Error loading a34sxntm6at7xh.iot.us-west-2.amazonaws.com"/>
+	 	 <embed url="https://a34sxntm6at7xh.iot.us-west-2.amazonaws.com/things" title="a34sxntm6at7xh.iot.us-west-2.amazonaws.com"/>
+	 	 <embed url="file:///home/pi/1.0.0" title="Index of /apps/mqttfx/1.0.0" loading="true"/>
+	 </window>
+</session>

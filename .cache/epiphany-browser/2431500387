@@ -1,0 +1,21 @@
+ $('[id^=x]').click(function(){
+      var $this = $(this);
+    swal({    
+      text: 'By clicking "confirm" you will be taken to a page where you can hide/unhide any linked accounts from appearing on the login page in the future. Hidden accounts will still be available upon login, just grouped under a separate menu that will not display them by default.'  ,   
+      type: 'info',   
+      showCancelButton: true,   
+      confirmButtonColor: '#3085d6',   
+      cancelButtonColor: '#d33',   
+      confirmButtonText: 'Confirm',   
+      closeOnConfirm: false 
+    }, 
+      function() {   
+        swal(     
+          'Success!',     
+          'Your chosen account(s) will now be hidden/unhidden the next time you log in. You may undo do these changes by repeating the same process on any of the linked accounts.',     
+          'success'   ); 
+        var win = window.open("https://wiscmail.wisc.edu/admin/index.php?action=account-login_config&reset_context&context_type=Account", '_blank');
+        win.focus();
+      });
+    });
+

@@ -1,0 +1,13 @@
+BlueJ run started: Tue Feb 23 02:26:16 UTC 2016
+BlueJ version 3.1.6
+Java version 1.8.0_65
+Virtual machine: Java HotSpot(TM) Client VM 25.65-b01 (Oracle Corporation)
+Running on: Linux 4.1.17-v7+ (arm)
+Java Home: /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre
+----
+Detected language "english" based on iso639-2 code "eng"
+Attempt to create project with existing non-empty directory: /home/pi
+Opening project: /home/pi/Public/Kangbo
+1456194499578: Listening for JDWP connection on address: 127.0.0.1:47159
+Connected to debug VM via dt_socket transport...
+Communication with debug VM fully established.

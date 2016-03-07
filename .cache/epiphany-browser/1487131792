@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Office 365 Sign In - University of Wisconsin-Madison">
+  <meta name="author" content="University of Wisconsin-Madison">
+  <link rel="shortcut icon" href="/login-htdocs2/img/favicon.ico">
+
+  <title>Office 365 Sign In - University of Wisconsin-Madison</title>
+
+  <!-- UW UI Toolkit CSS -->
+  <link href="/login-htdocs2/css/uw-ui-toolkit.css" rel="stylesheet" type='text/css'>
+  <link href="/login-htdocs2/css/sweetalert2.css" rel="stylesheet" type='text/css'>
+  
+  <style>
+  .clickable
+  {
+      cursor: pointer;
+  }
+  
+  .clickable .glyphicon
+  {
+      background: rgba(0, 0, 0, 0.15);
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 4px
+  }
+  
+  .panel-heading span
+  {
+      margin-top: -23px;
+      font-size: 15px;
+      margin-right: -9px;
+  }
+  a.clickable { color: inherit; }
+  a.clickable:hover { text-decoration:none; }
+    
+    
+  .navbar-custom {
+    background-image: url('img/uwcrest_web_sm.png');
+    background-position: -13px -13px;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    padding-left: 0;
+    background-color:#A349A4;
+    color:#ffffff;
+    border-radius:0;
+  }
+  .navbar.navbar-cu .container {
+    width: auto;
+    padding-left: 15px;
+  }
+  .navbar.navbar-default .navbar-header,
+  .navbar.navbar-custom .navbar-header {
+    margin-left: 28px;
+  }
+  
+
+  .navbar-custom .navbar-nav > li > a {
+      color:#fff;
+      padding-left:20px;
+      padding-right:20px;
+  }
+  .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+      color: #ffffff;
+    background-color:transparent;
+  }
+        
+  .navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+      text-decoration: none;
+      background-color: #FF69B4;
+  }
+        
+  .navbar-custom .navbar-brand {
+      color:#eeeeee;
+  }
+  .navbar-custom .navbar-toggle {
+      background-color:#eeeeee;
+  }
+  .navbar-custom .icon-bar {
+      background-color:#FF69B4;
+  } 
+  </style>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/login-htdocs2/js/html5shiv.js"></script>
+      <script src="/login-htdocs2/js/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body style="min-width: 480px;">
+    <!-- switch between custom / inverse for test / production -->
+      <nav class="navbar navbar-inverse" role="navigation" style="min-width: 480px;">
+      
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header clearfix">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">Office 365</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">My account [ <span class="glyphicon glyphicon-lock"></span> ] <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://wiscmail.wisc.edu/admin/" target="_blank" title="Account Settings">Account Administration</a></li>
+                <li><a href="http://my.wisc.edu/" target="_blank" title="MyUW">MyUW</a></li>
+                <li><a href="/logout" title="Log Out">Logout</a></li>
+              </ul>
+            </li>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+  <div class="container">
+      <div class="main">
+        <div class="alert alert-danger">
+          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+          <strong>Reminder: </strong>   
+          Never respond to an email that asks for your password.
+          You should only enter your NetID and password if you recognize the campus login page.  
+          <a href="https://kb.wisc.edu/helpdesk/news.php?id=6162" target="_blank"><u>Find out more</u></a>
+        </div>
+      </div>
+
+      <div class="row">
+
+    </div> <!-- class=row -->
+
+    <div class="row"><h3>Sign in:</h3>
+      <div class="col-sm-6 main-context">
+    
+
+    
+    
+
+    
+            <div class="panel panel-default">
+                <div class="panel-heading clearfix">
+                
+                    
+                    
+                    
+                    <h3 class="panel-title clearfix"><a href="https://outlook.office365.com/owa/?realm=wisc.edu&exsvurl=1">
+                    <u>jalal@wisc.edu</u>
+                    </a>
+                    <span class="small"></span>
+                  </h3>
+                </div>
+                <div class="panel-body clearfix">
+
+                    <a href="https://outlook.office365.com/owa/?realm=wisc.edu&exsvurl=1&modurl=0&path=/mail"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-envelope"> </span> Email</button></a>
+
+                    <a href="https://outlook.office365.com/owa/?realm=wisc.edu&exsvurl=1&modurl=1&path=/calendar"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-calendar"> </span> Calendar</button></a>
+
+                    <a href="https://outlook.office365.com/owa/?realm=wisc.edu&exsvurl=1&modurl=2&path=/people"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-user"> </span> People</button></a>
+
+                    <a href="https://outlook.office365.com/owa/?realm=wisc.edu&exsvurl=1&modurl=3&path=/tasks"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-th-list"> </span> Tasks</button></a>
+
+                    <a href="https://outlook.office365.com/owa/?realm=wisc.edu&exsvurl=1&modurl=4&path=/options/mail"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-wrench"> </span> Options</button></a>
+
+                </div>
+            </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="panel panel-primary">
+                <div class="panel-heading clickable" title="Show/Hide Hidden Accounts">
+                    <h3 class="panel-title clearfix">Other Accounts</h3>
+                    <span class="pull-right"><i class="glyphicon glyphicon-chevron-left"></i></span>
+                </div>
+                <div class="panel-body clearfix">
+                <div class=".col-xs-6 .col-md-4" style="min-width: 90px;">
+
+    
+   
+      <!-- is hidden -->
+    
+   
+     
+     
+        
+            <div class="panel panel-default">
+                <div class="panel-heading clearfix">
+                
+                    
+                    <div class="pull-right"> <a id="x" class="btn btn-inverse btn-xs pull-right" title="Unhide Account">
+                    <button type="button" class="btn btn-inverse btn-xs pull-right" aria-label="Close"><i class="	glyphicon glyphicon-eye-open"></i></button></div>
+                    
+                    
+                    <h3 class="panel-title clearfix"><a href="https://outlook.office365.com/owa/jalal_ssc@wisc.edu/?realm=wisc.edu&exsvurl=1">
+                    <u>jalal@ssc.wisc.edu</u>
+                    </a>
+                    <span class="small"><br>(Service Account)</span>
+                  </h3>
+                </div>
+                <div class="panel-body">
+
+                    <a href="https://outlook.office365.com/owa/jalal_ssc@wisc.edu/?realm=wisc.edu&exsvurl=1&modurl=0&path=/mail"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-envelope"> </span> Email</button></a>
+
+                    <a href="https://outlook.office365.com/owa/jalal_ssc@wisc.edu/?realm=wisc.edu&exsvurl=1&modurl=1&path=/calendar"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-calendar"> </span> Calendar</button></a>
+
+                    <a href="https://outlook.office365.com/owa/jalal_ssc@wisc.edu/?realm=wisc.edu&exsvurl=1&modurl=2&path=/people"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-user"> </span> People</button></a>
+
+                    <a href="https://outlook.office365.com/owa/jalal_ssc@wisc.edu/?realm=wisc.edu&exsvurl=1&modurl=3&path=/tasks"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-th-list"> </span> Tasks</button></a>
+
+                    <a href="https://outlook.office365.com/owa/jalal_ssc@wisc.edu/?realm=wisc.edu&exsvurl=1&modurl=4&path=/options/mail"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-wrench"> </span> Options</button></a>
+
+                </div>
+            </div>
+      <!--Types close -->
+     <!-- is hidden -->
+     <!--Hidden Accounts-->
+        </div>
+      </div>
+    </div>
+    
+     <!-- ACCOUNTS -->
+    </div>
+   
+
+      <div class="col-sm-6 help-context">
+        <div class="well">
+          <p class="heading">About Office 365</p>
+          <ul>
+          
+            <li><a href="https://kb.wisc.edu/office365/page.php?id=41233" target="_blank">Learn to use Office 365</a></li>
+            <li><a href="https://kb.wisc.edu/page.php?id=27938" target="_blank">Office 365 FAQ</a></li>
+            <li><a href="https://kb.wisc.edu/office365" target="_blank">Search the KnowledgeBase</a></li>
+          
+            <li><a href="https://kb.wisc.edu/helpdesk/1" target="_blank">Contact the Help Desk</a></li>
+            <li><a href="http://www.365transition.wisc.edu/" target="_blank">About the transition to Office 365</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      
+  </div> <!-- sign in row -->
+</div>
+   <div class="container">
+      <div class="main">
+
+        
+
+    
+    <div>
+      <p style="min-height: 15px;"></p>
+      <p align="center">
+      Don't see your Office 365 Service Accounts listed here? Learn how to 
+      <a href="https://kb.wisc.edu/page.php?id=25497" target="_blank">link your Office 365 Service Accounts to your NetID</a>.
+      </p>
+    </div>
+  <footer>
+    <div class="text-center">&copy; 2016 Board of Regents of the University of Wisconsin System</div>
+  </footer>
+        </div>
+      </div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="/login-htdocs2/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/login-htdocs2/js/uw-ui-toolkit.js"></script>
+    <script type="text/javascript" src="/login-htdocs2/js/sweetalert2.min.js"></script>
+    <script type="text/javascript" src="/login-htdocs2/js/hidden.js"></script>
+    <script type="text/javascript" src="/login-htdocs2/js/alert.js"></script>
+  </body>
+  </html>

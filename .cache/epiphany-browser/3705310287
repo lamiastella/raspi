@@ -1,0 +1,8 @@
+<div class="content parsys"> 
+ <div class="call-to-action parbase section"> 
+  <div class="sidebar-cta "> 
+   <p>Manage Your Resources</p> 
+   <a class="button btn-gold" href="https://console.aws.amazon.com/console/home">Sign In to the Console</a> 
+  </div> 
+ </div> 
+</div>
